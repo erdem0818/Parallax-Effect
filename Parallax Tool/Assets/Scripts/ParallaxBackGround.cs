@@ -11,8 +11,6 @@ public class ParallaxBackGround : BaseObject,IUpdateable
     private Camera _parallaxCamera;
     private Vector2 _screenBounds; 
     
-    [SerializeField]
-    private float scrollSpeed;
     private Vector2 _lastScreenPosition;
 
     public override void BaseObjectStart()
